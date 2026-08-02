@@ -1,0 +1,48 @@
+{
+  "name": "@sebastienrousseau/playwright-config",
+  "version": "1.0.0",
+  "description": "Shareable Playwright configuration rules for cross-browser E2E testing and parallel execution.",
+  "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/sebastienrousseau/playwright-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastienrousseau/playwright-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebastienrousseau/playwright-config/issues"
+  },
+  "keywords": [
+    "playwright",
+    "playwright-config",
+    "config-preset",
+    "developer-tools"
+  ],
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "playwright.config.js",
+    "playwright-config.svg",
+    "LICENSE",
+    ".editorconfig"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "lint": "node test/test.js"
+  }
+}
