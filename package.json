@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/playwright-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shareable Playwright configuration rules for cross-browser E2E testing and parallel execution.",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
   "license": "ISC",
