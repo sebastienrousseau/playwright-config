@@ -43,6 +43,7 @@
   },
   "scripts": {
     "test": "node test/test.js",
-    "lint": "node test/test.js"
+    "lint": "node test/test.js",
+    "docs:build": "bash scripts/build-docs.sh"
   }
 }
