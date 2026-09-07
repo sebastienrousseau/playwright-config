@@ -1,0 +1,16 @@
+site_name = "playwright-config"
+site_title = "@sebastienrousseau/playwright-config — Shareable Playwright configuration rules for cross-browser E2E testing and parallel execution."
+site_description = "Shareable Playwright configuration rules for cross-browser E2E testing and parallel execution."
+base_url = "https://config.sebastienrousseau.com/playwright-config"
+language = "en-GB"
+
+content_dir = "web/content"
+template_dir = "web/_layouts"
+output_dir = "public"
+
+[agents]
+agents_txt = true
+ai_plugin = true
+
+[agents.mcp]
+enabled = true
