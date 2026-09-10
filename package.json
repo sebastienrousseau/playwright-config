@@ -42,7 +42,7 @@
     "access": "public"
   },
   "scripts": {
-    "test": "node --test tests/conformance.test.js tests/bench.test.js",
+    "test": "node --test tests/conformance.test.js tests/bench.test.js tests/environment.test.js",
     "bench": "node benches/bench_load.js",
     "examples": "node examples/basic.js && node examples/advanced.js && node examples/features.js && node examples/esm.mjs",
     "docs:build": "bash scripts/build-docs.sh",
