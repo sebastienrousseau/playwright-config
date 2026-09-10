@@ -21,14 +21,18 @@ An exhaustive overview covering **100% of the features, rules, and capabilities*
 ## Feature Deep Dive
 
 ### 1. Full Parallelism
+
 Executes test scenarios in parallel across all worker processes. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 2. Diagnostic Artifacts
+
 Captures screenshots, videos, and execution traces on failure. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 3. Multi-Format Reporting
+
 Emits HTML and list reports for CI and developer inspection. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 4. Configurable Timeouts
+
 30-second navigation and action timeout baseline. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
