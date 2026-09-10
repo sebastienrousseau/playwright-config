@@ -1,10 +1,15 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 /**
  * Basic usage example for @sebastienrousseau/playwright-config
  * Demonstrates importing and consuming the default preset in a standard project.
  */
 const config = require("../index.cjs");
 
-console.log("=== Basic Usage Example: @sebastienrousseau/playwright-config ===");
+console.log(
+  "=== Basic Usage Example: @sebastienrousseau/playwright-config ===",
+);
 if (typeof config === "string") {
   console.log("Loaded template length:", config.length, "characters");
 } else if (Array.isArray(config)) {
