@@ -54,7 +54,7 @@
   },
   "sideEffects": false,
   "devDependencies": {
-    "@sebastienrousseau/config-kit": "^0.0.7"
+    "@sebastienrousseau/config-kit": "^0.0.8"
   },
   "configKit": {
     "shape": "object",
