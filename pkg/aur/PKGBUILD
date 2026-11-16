@@ -1,6 +1,6 @@
 # Maintainer: Sebastien Rousseau <sebastian.rousseau@gmail.com>
 pkgname=nodejs-sebastienrousseau-playwright-config
-pkgver=0.0.7
+pkgver=0.0.9
 pkgrel=1
 pkgdesc="Shareable Playwright configuration rules for cross-browser E2E testing and parallel execution"
 arch=('any')

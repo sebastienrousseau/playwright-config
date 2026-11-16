@@ -6,7 +6,7 @@
 class PlaywrightConfig < Formula
   desc "Shareable Playwright configuration rules for cross-browser E2E testing and parallel execution"
   homepage "https://github.com/sebastienrousseau/playwright-config"
-  url "https://registry.npmjs.org/@sebastienrousseau/playwright-config/-/playwright-config-0.0.7.tgz"
+  url "https://registry.npmjs.org/@sebastienrousseau/playwright-config/-/playwright-config-0.0.9.tgz"
   license any_of: ["Apache-2.0", "MIT"]
 
   depends_on "node"
